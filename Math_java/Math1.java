@@ -23,7 +23,7 @@ public class math1 {
         }
         System.out.println("");
 
-        // c + d <= 4를  c, d의 순서쌍
+        // c + d <= 4를 만족시키는 c, d의 순서쌍
         int c, d;
         for(c = 1; c <= 4; c++) {
             for(d = 1; d <= 4; d++) {
