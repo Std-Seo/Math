@@ -1,7 +1,7 @@
 public class math1 {
     public static void main(String[] args) {
 
-        // 2번 프린트 문제 6번 - 2 * x + y가 5인 x, y의 순서쌍
+        // 2x + y = 5를 만족시키는 x, y의 순서쌍
         int x, y;
         for(x = 0; x <= 5; x++) {
             for(y = 0; y <= 5; y++) {
@@ -12,7 +12,7 @@ public class math1 {
         }
         System.out.println("");
 
-        // 2번 프린트 문제 7번 - a + 4 * b가 10인 a, b의 순서쌍
+        // a + 4b = 10을 만족시키는 a, b의 순서쌍
         int a, b;
         for(a = 0; a <= 10; a++) {
             for(b = 0; b <= 10; b++) {
@@ -23,7 +23,7 @@ public class math1 {
         }
         System.out.println("");
 
-        // 2번 프린트 문제 8번 - c + d가 4 이하인 c, d의 순서쌍
+        // c + d <= 4를  c, d의 순서쌍
         int c, d;
         for(c = 1; c <= 4; c++) {
             for(d = 1; d <= 4; d++) {
